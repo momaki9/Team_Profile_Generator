@@ -1,8 +1,9 @@
-
+// defining the functions that will build the html page based on user input
 const generateTeam = (team) => {
-
+    //definining an empty html array to be filled based on team members
     const html = [];
     const generateManager = (manager) => {
+        //html code corresponding to the manager object created
         const managerDiv = `
         <div class="tile is-parent">
             <div class="tile is-child box has-background-link-light">
@@ -16,10 +17,12 @@ const generateTeam = (team) => {
             </div>
         </div>
         `;
+        //addes the manager html into the html array
         html.push(managerDiv);
     };
 
     const generateEngineer = (engineer) => {
+        //html code corresponding to the engineer object created
         const engineerDiv = `
         <div class="tile is-parent">
             <div class="tile is-child box has-background-link-light">
@@ -33,12 +36,13 @@ const generateTeam = (team) => {
             </div>
         </div>
         `;
-
+        //addes the engineer html into the html array
         html.push(engineerDiv);
     };
 
  
     const generateIntern = (intern) => {
+        //html code corresponding to the intern object created
         const internDiv = `
         <div class="tile is-parent">
             <div class="tile is-child box has-background-link-light">
@@ -52,10 +56,11 @@ const generateTeam = (team) => {
             </div>
         </div>
         `;
-
+        //addes the intern html into the html array
         html.push(internDiv);
     };
 
+    // setting up a for loop to create html sections based on the number of employee objects created
     for (let i = 0; i < team.length; i++) {
         if (team[i].getRole() === "Manager") {
             generateManager(team[i]);
@@ -67,10 +72,11 @@ const generateTeam = (team) => {
             generateIntern(team[i]);
         }
     }
-
+    //Joins the html sections for the different employees on the team
     return html.join("");
 };
 
+// exports the full html content including the html generated above
 module.exports = (team) => {
 
   return `

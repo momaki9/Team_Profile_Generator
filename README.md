@@ -4,7 +4,7 @@
 
 ## This application utilizes the following node packages: inquirer version 8.2.4 and jest version 26.5.2
 
-
+## ![Screenshot](./assets/screenshot/Screenshot.png)
 ---
 
 ## Table of Contents
@@ -20,7 +20,7 @@
 
 A user can clone the files found in this repo then install the required node packages by running `npm i` in the command-line application. Reference the video linked below.
 
-[Walkthrough Video](#)
+[Walkthrough Video](https://drive.google.com/file/d/1Uaqpc8wHQZpKSFuH3s9L6u2J5vHBhrcr/view?usp=sharing)
 
 ## Usage
 
