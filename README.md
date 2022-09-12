@@ -18,13 +18,14 @@
 ---
 ## Installation
 
-A user can clone the files found in this repo then install the required node packages by running `npm i` in the command-line application. Reference the video linked below.
+A user can clone the files found in this repo then install the required node packages by running `npm i` in the command-line application. 
 
-[Walkthrough Video](https://drive.google.com/file/d/1Uaqpc8wHQZpKSFuH3s9L6u2J5vHBhrcr/view?usp=sharing)
 
 ## Usage
 
-In terminal and after installing the necessary node packages, navigate to the folder and then run the command `node index.js`. After answering the question prompts in terminal, an HTML page is generated in the `dist` folder.
+In terminal and after installing the necessary node packages, navigate to the folder and then run the command `node index.js`. After answering the question prompts in terminal, an HTML page is generated in the `dist` folder. Reference the video linked below.
+
+[Walkthrough Video](https://drive.google.com/file/d/1Uaqpc8wHQZpKSFuH3s9L6u2J5vHBhrcr/view?usp=sharing)
 
 ## License
 
